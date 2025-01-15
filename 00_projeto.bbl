@@ -1,0 +1,16 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem{douglas2024_VSNT}
+\abntrefinfo{Lima et al.}{LIMA et al.}{2024}
+{LIMA, D.~S. de et al. Towards autonomous control system in brazilian navy's
+  usv-lab using moos-ivp framework.
+\emph{IFAC PapersOnLine}, Elsevier, v.~58, n.~20, p. 35--40, 2024.
+Dispon{\'\i}vel em:
+  $<$https://www.sciencedirect.com/science/article/pii/S2405896324010029$>$.}
+
+\end{thebibliography}

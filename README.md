@@ -1,5 +1,8 @@
 # Estrutura do Projeto de Pesquisa
 
+- **Título:** Implementação de um método baseado em aprendizado por reforço para otimizar a comunicação peer-to-peer entre uma embarcação autônoma da Marinha do Brasil (VSNT-LAB) e um navio-mãe.}
+- **Orientadora:** Profa. Rosa Maria Meri Leão
+
 ## 1. Introdução
 - **Contextualização**:
   - Apresente o USV-Lab como uma plataforma da Marinha do Brasil para pesquisa e desenvolvimento em veículos autônomos marítimos.
