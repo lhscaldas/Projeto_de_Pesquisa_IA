@@ -5,12 +5,27 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem{douglas2024_VSNT}
+\bibitem{VSNT_douglas2024}
 \abntrefinfo{Lima et al.}{LIMA et al.}{2024}
 {LIMA, D.~S. de et al. Towards autonomous control system in brazilian navy's
   usv-lab using moos-ivp framework.
 \emph{IFAC PapersOnLine}, Elsevier, v.~58, n.~20, p. 35--40, 2024.
 Dispon{\'\i}vel em:
   $<$https://www.sciencedirect.com/science/article/pii/S2405896324010029$>$.}
+
+\bibitem{Network_alqurashi2023}
+\abntrefinfo{Alqurashi et al.}{ALQURASHI et al.}{2023}
+{ALQURASHI, F.~S. et al. Maritime communications: A survey on enabling
+  technologies, opportunities, and challenges.
+\emph{IEEE Internet of Things Journal}, IEEE, v.~10, n.~4, p. 3525--3547,
+  2023.}
+
+\bibitem{VSNT_ge2018}
+\abntrefinfo{Ge, Li e Geng}{GE; LI; GENG}{2018}
+{GE, J.; LI, T.; GENG, T. The wireless communications for unmanned surface
+  vehicle: An overview. In:  CHEN, Z. et al. (Ed.). \emph{Intelligent Robotics
+  and Applications}. Cham: Springer International Publishing, 2018. p.
+  113--119.
+ISBN 978-3-319-97586-3.}
 
 \end{thebibliography}
