@@ -38,9 +38,15 @@ Cada estado oculto representa uma condição específica da rede. Por exemplo, o
 
 \subsection{Implementação de RL}
 % Defina o MDP (estados, ações, recompensas) para gerenciar dinamicamente a troca entre os canais mesh e VPN.
+A implementação de Aprendizado por Reforço (RL) será fundamentada no formalismo de Processos de Decisão de Markov (MDP), que modelam a dinâmica do sistema de comunicação do VSNT-Lab. O MDP será definido por um conjunto de estados (\textit{S}), representando as condições de rede detectadas pelo modelo HMM, um conjunto de ações (\textit{A}), que incluem a seleção do canal de comunicação (mesh ou VPN) ou ajustes nos parâmetros de transmissão, e uma função de recompensa (\textit{R}), projetada para incentivar decisões que maximizem a qualidade e estabilidade da comunicação.
+
+Os estados (\textit{S}) incluirão informações sobre métricas observadas (como latência e perda de pacotes) e o canal atualmente ativo. As ações (\textit{A}) permitirão trocar dinamicamente entre os canais mesh e VPN ou manter a configuração atual. A função de recompensa (\textit{R}) será definida para penalizar mudanças desnecessárias de canal, latências elevadas e perdas de pacotes, enquanto valoriza ações que mantêm uma comunicação estável e eficiente. O algoritmo de Value Iteration será utilizado para encontrar a política ótima (\(\pi^*\)) que determina a melhor ação para cada estado, considerando um horizonte de planejamento e as restrições operacionais do sistema. Esta abordagem permitirá uma gestão inteligente e adaptativa da comunicação, reduzindo interrupções e otimizando o desempenho em cenários desafiadores.
 
 \subsection{Validação}
 % Teste o método em cenários reais, como operações militares e simulações na Baía de Guanabara e na Baía de Todos os Santos.
+A validação do método proposto será realizada em cenários reais, explorando as operações de comunicação entre o navio-mãe e o VSNT-Lab. Os testes serão conduzidos em ambientes representativos, como a Baía de Guanabara e a Baía de Sepetiba, locais que oferecem desafios característicos de comunicação marítima, incluindo interferências ambientais, variações de distância e condições meteorológicas adversas.
 
-\subsection{Ferramentas e Tecnologias}
-% Detalhe as tecnologias usadas, incluindo MOOS-IvP, infraestrutura de rádio mesh e VPN, e algoritmos de RL.
+Os experimentos incluirão a coleta de métricas de desempenho dos canais mesh e VPN em diferentes condições operacionais. Durante os testes, o modelo implementado será avaliado quanto à sua capacidade de identificar estados ocultos de rede, prever mudanças nas condições de comunicação e tomar decisões ótimas por meio do RL. As métricas de avaliação incluirão latência, taxa de perda de pacotes e a quantidade de mudanças de canal realizadas.
+
+% \subsection{Ferramentas e Tecnologias}
+% % Detalhe as tecnologias usadas, incluindo MOOS-IvP, infraestrutura de rádio mesh e VPN, e algoritmos de RL.
